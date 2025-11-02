@@ -26,16 +26,19 @@ sprites.define('mario2',330,0,18,32)
 setInterval(() => {
     i++
   if ((i % 3)==1){
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
     sprites.draw('mario0',ctx,0,0)
   }
   else if ((i % 3)==2){
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
     sprites.draw('mario1',ctx,0,0)
   }
   else {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
     sprites.draw('mario2',ctx,0,0)
   }
 
-},300)
+},100)
 
 
 
