@@ -1,3 +1,4 @@
+// prueba
 export default class SpriteSheet {
 
     constructor(image, width, height){
